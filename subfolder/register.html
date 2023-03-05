@@ -1,0 +1,152 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Prelim Exam | Welcome </title>
+    <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+    <link href= "../css/style.css" rel = "stylesheet" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="style.css"
+
+  </head>
+
+<body>
+  <video playsinline autoplay muted loop poster="polina.jpg" id="bgvid">
+  <source src="../img/regbg17.mp4" type="video/mp4">
+</video>
+
+    <header>
+
+    </header>
+
+    <section>
+      <div class="placeholderreg centerform">
+        <div class="regform">
+          <form action="../index.html" method="POST">
+            <fieldset>
+              <div class="formtext2 centerform">
+                <p class="titletxt2"> Create an account!</p>
+              </div>
+              <div class="center">
+                <div class="childsubbtn subbtntext2">
+                  Already have an account?
+                </div>
+                <div class="childsubbtn subbtntext2">
+                  <a id="registerbtn" href="../index.html">Log in</a>
+                </div>
+              </div>
+              <div>
+                <div class="formdiv childsubbtn">
+                  <label for="firstname"> FIRST NAME </label>
+                  <div>
+                    <input type="text" class="twocolform" name="firstname" required>
+                  </div>
+                </div>
+                <div class="formdiv childsubbtn">
+                  <label for="lastname"> LAST NAME </label>
+                  <div>
+                    <input type="text" class="twocolform" name="lastname" required>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="formdiv childsubbtn">
+                  <label for="age"> AGE </label>
+                  <div>
+                    <input type="number" min="1" max="130"  class="twocolform" name="age" required>
+                  </div>
+                </div>
+                <div class="formdiv childsubbtn">
+                  <label for="birthday"> BIRTHDAY </label>
+                  <div>
+                    <input type="date" class="twocolform" name="birthday" required>
+                  </div>
+                </div>
+              </div>
+
+              <div class="formdiv">
+                <label for="radio"> GENDER </label>
+              </div>
+              <div class="formdiv">
+                <div class="child">
+                  <div class="childsubbtn">
+                    <label for="radio"> MALE </label>
+                  </div>
+                  <div class="childsubbtn">
+                    <input class="radio" type="radio" name="gender" value="male" required>
+                  </div>
+                </div >
+                <div class="child" >
+                  <div class="childsubbtn">
+                    <label for="radio"> FEMALE </label>
+                  </div>
+                  <div class="childsubbtn">
+                    <input type="radio" name="gender" value="female" required>
+                  </div>
+                </div >
+                <div class="child">
+                  <div class="childsubbtn">
+                    <label for="radio"> OTHERS </label>
+                  </div>
+                  <div class="childsubbtn">
+                    <input type="radio" name="gender" value="OTHERS" required>
+                  </div>
+                </div >
+              </div>
+
+
+              <div class="formdiv childsubbtn">
+                <label for="photo"> INPUT PHOTO </label>
+                <div>
+                  <input type="file" class="twocolform" name="photo" required>
+                </div>
+              </div>
+              <div class="formdiv childsubbtn">
+                <label for="tel"> MOBILE NUMBER </label>
+                <div>
+                  <input placeholder="####-###-####" type="tel" class="twocolform" name="tel" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" required>
+                </div>
+              </div>
+              <div class="formdiv">
+                <label for="email"> EMAIL </label>
+                <div>
+                  <input type="email" name="email" required>
+                </div>
+              </div>
+              <div class="formdiv">
+                <label for="text"> Username </label>
+                <div>
+                  <input class="username" type="text" name="text" required>
+                </div>
+              </div>
+              <div>
+                <div class="formdiv childsubbtn">
+                  <label for="password"> PASSWORD </label>
+                  <div>
+                    <input type="password" class="twocolform" name="password" required>
+                  </div>
+                </div>
+                <div class="formdiv childsubbtn">
+                  <label for="confpassword"> CONFIRM PASSWORD </label>
+                  <div>
+                    <input type="password" class="twocolform" name="confpassword" required>
+                  </div>
+                </div>
+              </div>
+
+
+              <button type="submit">
+                <div class="btntxt">
+                  Register
+                </div>
+              </button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+
+  </body>
+</html>
